@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+ .navbar {
+	 font-size: 15px;
+}
+ .dropdown-menu {
+	 font-size: 15px;
+}
+ .dropdown-header {
+	 font-size: 15px;
+}
+ .blockquote-footer {
+	 color: #ebebeb;
+}
+ .table {
+	 font-size: 15px;
+}
+ .table .thead-dark th {
+	 color: #fff;
+}
+ .table a:not(.btn) {
+	 color: #fff;
+	 text-decoration: underline;
+}
+ .table .dropdown-menu a {
+	 text-decoration: none;
+}
+ .table .text-muted {
+	 color: gba(255, 255, 255, 0.4);
+}
+ .table-dark {
+	 color: #fff;
+}
+ .table-primary, .table-primary > th, .table-primary > td {
+	 background-color: #df691a;
+}
+ .table-secondary, .table-secondary > th, .table-secondary > td {
+	 background-color: #4e5d6c;
+}
+ .table-light, .table-light > th, .table-light > td {
+	 background-color: #ebebeb;
+}
+ .table-dark, .table-dark > th, .table-dark > td {
+	 background-color: #adb5bd;
+}
+ .table-success, .table-success > th, .table-success > td {
+	 background-color: #5cb85c;
+}
+ .table-info, .table-info > th, .table-info > td {
+	 background-color: #5bc0de;
+}
+ .table-danger, .table-danger > th, .table-danger > td {
+	 background-color: #d9534f;
+}
+ .table-warning, .table-warning > th, .table-warning > td {
+	 background-color: #f0ad4e;
+}
+ .table-active, .table-active > th, .table-active > td {
+	 background-color: rgba(255, 255, 255, .05);
+}
+ .table-hover .table-primary:hover, .table-hover .table-primary:hover > th, .table-hover .table-primary:hover > td {
+	 background-color: #c85e17;
+}
+ .table-hover .table-secondary:hover, .table-hover .table-secondary:hover > th, .table-hover .table-secondary:hover > td {
+	 background-color: #43505d;
+}
+ .table-hover .table-light:hover, .table-hover .table-light:hover > th, .table-hover .table-light:hover > td {
+	 background-color: #dedede;
+}
+ .table-hover .table-dark:hover, .table-hover .table-dark:hover > th, .table-hover .table-dark:hover > td {
+	 background-color: #9fa8b2;
+}
+ .table-hover .table-success:hover, .table-hover .table-success:hover > th, .table-hover .table-success:hover > td {
+	 background-color: #4cae4c;
+}
+ .table-hover .table-info:hover, .table-hover .table-info:hover > th, .table-hover .table-info:hover > td {
+	 background-color: #46b8da;
+}
+ .table-hover .table-danger:hover, .table-hover .table-danger:hover > th, .table-hover .table-danger:hover > td {
+	 background-color: #d43f3a;
+}
+ .table-hover .table-warning:hover, .table-hover .table-warning:hover > th, .table-hover .table-warning:hover > td {
+	 background-color: #eea236;
+}
+ .table-hover .table-active:hover, .table-hover .table-active:hover > th, .table-hover .table-active:hover > td {
+	 background-color: rgba(255, 255, 255, .05);
+}
+ label, .radio label, .checkbox label, .help-block {
+	 font-size: 15px;
+}
+ .nav-tabs .nav-link, .nav-pills .nav-link, .nav-tabs .nav-link:hover, .nav-pills .nav-link:hover {
+	 color: #ebebeb;
+}
+ .nav-tabs .nav-link.disabled, .nav-pills .nav-link.disabled {
+	 color: gba(255, 255, 255, 0.4);
+}
+ .page-link:hover, .page-link:focus {
+	 color: #fff;
+	 text-decoration: none;
+}
+ .alert {
+	 border: none;
+	 color: #fff;
+}
+ .alert a, .alert .alert-link {
+	 color: #fff;
+	 text-decoration: underline;
+}
+ .badge-warning, .badge-info {
+	 color: #fff;
+}
+ .close {
+	 color: #fff;
+	 text-shadow: none;
+	 opacity: 0.5;
+}
+ .close:hover, .close:focus {
+	 opacity: 1;
+}
+ .popover-header {
+	 border-top-left-radius: 0;
+	 border-top-right-radius: 0;
+}
+ .modal-header, .modal-footer {
+	 background-color: rgba(255, 255, 255, .075);
+}
+ 

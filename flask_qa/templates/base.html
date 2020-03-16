@@ -8,8 +8,9 @@
         <title>{% block title %}{% endblock %}</title>
         <!-- Bootstrap core CSS -->
         <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
-        <link href="{{ url_for('static', filename='bootstrap-theme.css') }}" rel="stylesheet">
-        <link href="{{ url_for('static', filename='theme.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='bootswatch.css') }}" rel="stylesheet">
+        <!-- <link href="{# url_for('static', filename='bootstrap-theme.css') #}" rel="stylesheet"> -->
+        <!-- <link href="{# url_for('static', filename='theme.css') #}" rel="stylesheet"> -->
     </head>
     <body>
         <!-- Fixed navbar -->
@@ -42,7 +43,7 @@
             </div>
         </nav>
 
-        <div class="container theme-showcase" role="main">
+        <div class="container" role="main">
             {% with messages = get_flashed_messages() %}
             {% if messages %}
                 {% for message in messages %}
